@@ -1,0 +1,4 @@
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Constants\bin\Debug\Constants.dll
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Constants\bin\Debug\Constants.pdb
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Constants\obj\Debug\Constants.dll
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Constants\obj\Debug\Constants.pdb

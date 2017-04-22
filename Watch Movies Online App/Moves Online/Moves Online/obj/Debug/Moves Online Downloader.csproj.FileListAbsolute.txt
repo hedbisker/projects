@@ -1,0 +1,19 @@
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Moves Online\bin\Debug\Moves Online Downloader.exe.config
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Moves Online\obj\Debug\Moves Online Downloader.csprojResolveAssemblyReference.cache
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Moves Online\obj\Debug\Moves Online Downloader.exe
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Moves Online\obj\Debug\Moves Online Downloader.pdb
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Moves Online\bin\Debug\Moves Online Downloader.exe
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Moves Online\bin\Debug\Moves Online Downloader.pdb
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Moves Online\bin\Debug\HtmlAgilityPack.dll
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Moves Online\bin\Debug\Newtonsoft.Json.dll
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Moves Online\bin\Debug\HtmlAgilityPack.pdb
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Moves Online\bin\Debug\HtmlAgilityPack.xml
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Moves Online\bin\Debug\Newtonsoft.Json.xml
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Moves Online\bin\Debug\Extenctions.dll
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Moves Online\bin\Debug\HelperFunctions.dll
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Moves Online\bin\Debug\Models.dll
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Moves Online\bin\Debug\Extenctions.pdb
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Moves Online\bin\Debug\HelperFunctions.pdb
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Moves Online\bin\Debug\Models.pdb
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Moves Online\bin\Debug\Constants.dll
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Moves Online\bin\Debug\Constants.pdb

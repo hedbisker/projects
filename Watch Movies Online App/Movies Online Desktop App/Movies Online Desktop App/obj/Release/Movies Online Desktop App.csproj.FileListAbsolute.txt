@@ -1,0 +1,16 @@
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Movies Online Desktop App\Movies Online Desktop App\bin\Release\Movies Online Desktop App.exe.config
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Movies Online Desktop App\Movies Online Desktop App\bin\Release\Movies Online Desktop App.exe
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Movies Online Desktop App\Movies Online Desktop App\bin\Release\Movies Online Desktop App.pdb
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Movies Online Desktop App\Movies Online Desktop App\obj\Release\Movies_Online_Desktop_App.Form1.resources
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Movies Online Desktop App\Movies Online Desktop App\obj\Release\Movies_Online_Desktop_App.Properties.Resources.resources
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Movies Online Desktop App\Movies Online Desktop App\obj\Release\Movies Online Desktop App.csproj.GenerateResource.Cache
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Movies Online Desktop App\Movies Online Desktop App\obj\Release\Movies Online Desktop App.exe
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Movies Online Desktop App\Movies Online Desktop App\obj\Release\Movies Online Desktop App.pdb
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Movies Online Desktop App\Movies Online Desktop App\obj\Release\Movies Online Desktop App.csprojResolveAssemblyReference.cache
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Movies Online Desktop App\Movies Online Desktop App\bin\Release\HtmlAgilityPack.dll
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Movies Online Desktop App\Movies Online Desktop App\bin\Release\Newtonsoft.Json.dll
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Movies Online Desktop App\Movies Online Desktop App\bin\Release\HtmlAgilityPack.pdb
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Movies Online Desktop App\Movies Online Desktop App\bin\Release\HtmlAgilityPack.xml
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Movies Online Desktop App\Movies Online Desktop App\bin\Release\Newtonsoft.Json.xml
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Movies Online Desktop App\Movies Online Desktop App\bin\Release\Constants.dll
+c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Movies Online Desktop App\Movies Online Desktop App\bin\Release\Constants.pdb
