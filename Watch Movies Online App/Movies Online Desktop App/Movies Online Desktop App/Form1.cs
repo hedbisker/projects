@@ -230,7 +230,7 @@ namespace Movies_Online_Desktop_App
                 //temp = temp.Where(movie => (lengthFilter.Text.Split("-").First().ToComparableLength() <= movie.Length && movie.Length <= lengthFilter.Text.Split("-").Last().ToComparableLength()));
             }
 
-            if (!rate.Equals(string.Empty) || string.IsNullOrEmpty(rate))
+            if (!rate.Equals(string.Empty))
             {
                 if (Data.RateLimit.Contains(rate))
                 {
