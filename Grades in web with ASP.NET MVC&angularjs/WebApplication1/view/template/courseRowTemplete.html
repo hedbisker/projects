@@ -1,0 +1,9 @@
+﻿<td>{{course.Name}}</td>
+ <td> {{course.Grade}}</td>
+                <td> {{course.Points}}</td>
+                <td> {{course.Semester}}</td>
+                <td> {{course.Exempt}}</td>
+                <td><button class="glyphicon glyphicon-pencil" ng-click="courseCtrl.editMode(course.Name)"
+           data-toggle="modal" data-target="#editCourse" style="width:100%"></button></td>
+            <td> <button class="glyphicon glyphicon-remove" ng-click="courseCtrl.deleteCourse(course.Name)"
+            style="width:100%"></button></td>

@@ -1,0 +1,27 @@
+﻿<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title" style="width:100%;">add a course</h4>
+            </div>
+            <div class ="modal-body">
+                <input placeholder="enter course name" class="form-control" style="width:50%" ng-model="name" />
+                <input placeholder="enter course grade" class="form-control" style="width:50%" ng-model="grade" />
+                <input placeholder="enter course points" class="form-control" style="width:50%" ng-model="points" />
+                <input placeholder="enter course semester" class="form-control" style="width:50%" ng-model="semester" />
+                 <label>This course is exempt : </label>
+                <input type="checkbox" ng-model="exempt" />
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary " style="float:left" data-dismiss="modal"
+                        ng-click="courseCtrl.addCourse(name,grade,points,semester,exempt)"> Add</button>
+                <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>

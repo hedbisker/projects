@@ -1,0 +1,16 @@
+﻿<div>
+    <table>
+        <tr>
+            <label type="button" id="writeContinuousGraph" class="">
+                Info
+            </label>
+        </tr>
+        <tr>
+            <canvas id="statistic" ng-init="drawCtrl.writeStatistic()"></canvas>
+        </tr>
+        <tr>
+            <canvas id="paper" ng-init="drawCtrl.writeGraphe()"
+                    ng-click="drawCtrl.changePaper()"></canvas>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,84 @@
+C:\Users\Hed\Dropbox\Matam (1)\Grades\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\Hed\Dropbox\Matam (1)\Grades\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\Hed\Dropbox\Matam (1)\Grades\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Hed\Dropbox\Matam (1)\Grades\WebApplication1\WebApplication1\obj\Debug\MyGradesAvgProject.csprojResolveAssemblyReference.cache
+C:\Users\Hed\Dropbox\Matam (1)\Grades\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Hed\Dropbox\Matam (1)\Grades\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\Hed\Desktop\MyAngularChat\Grades\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\Hed\Desktop\MyAngularChat\Grades\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\Hed\Desktop\MyAngularChat\Grades\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Hed\Desktop\MyAngularChat\Grades\WebApplication1\WebApplication1\obj\Debug\MyGradesAvgProject.csprojResolveAssemblyReference.cache
+C:\Users\Hed\Desktop\MyAngularChat\Grades\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Hed\Desktop\MyAngularChat\Grades\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+E:\פרוייקטים הד\Grades in web with mvc&angularjs\WebApplication1\bin\WebApplication1.dll.config
+E:\פרוייקטים הד\Grades in web with mvc&angularjs\WebApplication1\bin\WebApplication1.dll
+E:\פרוייקטים הד\Grades in web with mvc&angularjs\WebApplication1\bin\WebApplication1.pdb
+E:\פרוייקטים הד\Grades in web with mvc&angularjs\WebApplication1\obj\Debug\MyGradesAvgProject.csprojResolveAssemblyReference.cache
+E:\פרוייקטים הד\Grades in web with mvc&angularjs\WebApplication1\obj\Debug\WebApplication1.dll
+E:\פרוייקטים הד\Grades in web with mvc&angularjs\WebApplication1\obj\Debug\WebApplication1.pdb
+E:\פרוייקטים הד\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.dll.config
+E:\פרוייקטים הד\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.dll
+E:\פרוייקטים הד\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.pdb
+E:\פרוייקטים הד\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\MyGradesAvgProject.csprojResolveAssemblyReference.cache
+E:\פרוייקטים הד\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\WebApplication1.dll
+E:\פרוייקטים הד\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\WebApplication1.pdb
+F:\פרוייקטים הד\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.dll.config
+F:\פרוייקטים הד\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.dll
+F:\פרוייקטים הד\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.pdb
+F:\פרוייקטים הד\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\MyGradesAvgProject.csprojResolveAssemblyReference.cache
+F:\פרוייקטים הד\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\WebApplication1.dll
+F:\פרוייקטים הד\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.dll.config
+D:\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.dll
+D:\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.pdb
+D:\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\MyGradesAvgProject.csprojResolveAssemblyReference.cache
+D:\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\WebApplication1.dll
+D:\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.dll
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.pdb
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\MyGradesAvgProject.csprojResolveAssemblyReference.cache
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.pdb
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\MyGradesAvgProject.csprojResolveAssemblyReference.cache
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.dll
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.pdb
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\MyGradesAvgProject.csprojResolveAssemblyReference.cache
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.dll
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.pdb
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\MyGradesAvgProject.csprojResolveAssemblyReference.cache
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\hed\Documents\GitHub\project\New folder\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\hed\Documents\GitHub\project\New folder\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.dll
+C:\Users\hed\Documents\GitHub\project\New folder\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.pdb
+C:\Users\hed\Documents\GitHub\project\New folder\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\MyGradesAvgProject.csprojResolveAssemblyReference.cache
+C:\Users\hed\Documents\GitHub\project\New folder\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\hed\Documents\GitHub\project\New folder\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\hed\Documents\GitHub\projects\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\hed\Documents\GitHub\projects\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.dll
+C:\Users\hed\Documents\GitHub\projects\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.pdb
+C:\Users\hed\Documents\GitHub\projects\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\MyGradesAvgProject.csprojResolveAssemblyReference.cache
+C:\Users\hed\Documents\GitHub\projects\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\hed\Documents\GitHub\projects\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.pdb
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\MyGradesAvgProject.csprojResolveAssemblyReference.cache
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.dll
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.pdb
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\MyGradesAvgProject.csprojResolveAssemblyReference.cache
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Debug\WebApplication1.pdb

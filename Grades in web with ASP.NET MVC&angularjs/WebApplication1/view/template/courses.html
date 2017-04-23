@@ -1,0 +1,91 @@
+<div style="padding-left:50px;padding-right:100px;" ng-init="courseCtrl.fetchData()">
+    <h1>List of the courses</h1>
+    <!-- Trigger the modal with a button -->
+    <table>
+        <tr>
+            <td>
+                <label class="text-primary" style="font-size:30px ">Grade Average :</label>
+                <label class="label nice-font" id="average" ng-init="courseCtrl.makeAvrg()">---</label>
+            </td>
+            <td>
+                <label class="text-primary" style="font-size:30px ">Points number :</label>
+                <label class="label nice-font" id="points" ng-init="courseCtrl.makeAvrg()">---</label>
+            </td>
+        </tr>
+    </table>
+    <button type="button" class="btn btn-info btn-block " data-toggle="modal" data-target="#myModal">Add a course</button>
+    <table class="table table-bordered">
+        <tr>
+            <td>
+                Search of course:
+            </td>
+            <td>
+                Chose to sort by
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" class="input-group-btn nice-font" ng-model="searchText" style="width:100%">
+            </td>
+            <td>
+                <select class="form-control-static" name="singleSelect" ng-model="data.singleSelect" style="width: 100%">
+                    <option value="Name">Name</option>
+                    <option value="Grade">Grade</option>
+                    <option value="Points">Points</option>
+                    <option value="Exempt">Exempt</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <form>
+        <table class="table" style="float:left">
+            <tr class="active" style="width:50px">
+                <td class="active"><input placeholder="Name" ng-model="name" ng-keydown="courseCtrl.addCourseByEnter($event,name,grade,points,semester,exempt)"/></td>
+                <td class="active"><input placeholder="Grade" ng-model="grade" ng-keydown="courseCtrl.addCourseByEnter($event,name,grade,points,semester,exempt)"/></td>
+                <td class="active"><input placeholder="Points" ng-model="points" ng-keydown="courseCtrl.addCourseByEnter($event,name,grade,points,semester,exempt)"/></td>
+                <td class="active"><input placeholder="Semester" ng-model="semester" ng-keydown="courseCtrl.addCourseByEnter($event,name,grade,points,semester,exempt)"/></td>
+                <td class="active"><input type="checkbox" ng-model="exempt" /></td>
+                <td class="active" colspan="2"><button class="btn btn-primary" ng-click="courseCtrl.addCourse(name,grade,points,semester,exempt)"
+                                                       style="width:100%">Add a new course</button></td>
+            </tr>
+
+
+            <tr class="active" style="width:50px">
+                <td class="active"> Course name </td>
+                <td class="active"> Course grade </td>
+                <td class="active"> Course points </td>
+                <td class="active">Course Semester</td>
+                <td class="active">Course Exempt</td>
+                <td class="active">Course Edit </td>
+                <td class="active"> Delete </td>
+            </tr>
+
+            <tr class="active"
+                ng-repeat="course in courseCtrl.courses | orderBy:data.singleSelect | filter:searchText">
+                <!--course-directive  course="course" courseCtrl="courseCtrl"-->
+                
+                <td>{{course.Name}}</td>
+                <td> {{course.Grade}}</td>
+                <td> {{course.Points}}</td>
+                <td> {{course.Semester}}</td>
+                <td> {{course.Exempt}}</td>
+                
+                <td>
+                    <button class="glyphicon glyphicon-pencil" ng-click="courseCtrl.editMode(course.Name)"
+                            data-toggle="modal" data-target="#editCourse" style="width:100%"></button></td>
+                
+                 <td> <button class="glyphicon glyphicon-remove" ng-click="courseCtrl.deleteCourse(course.Name)"
+                              style="width:100%"></button></td>
+
+
+            </tr>
+        </table>
+    </form>
+    <div ng-include src="'../template/addCourseModal.html'"></div>
+    <div ng-include src="'../template/editCourseModeModal.html'"></div>
+</div>
+
+
+
+
+

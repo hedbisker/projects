@@ -1,0 +1,28 @@
+﻿<!-- Modal -->
+<div id="editCourse" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Edit a course</h4>
+            </div>
+            <div class="modal-body">
+                <input placeholder="enter course name" id="editName" class="form-control" ng-model="courseCtrl.editCourses[0].Name" readonly/>
+                <input placeholder="enter course grade" id="editGrade" class="form-control" ng-model="courseCtrl.editCourses[0].Grade" />
+                <input placeholder="enter course points" id="editPoints" class="form-control" ng-model="courseCtrl.editCourses[0].Points" />
+                <input placeholder="enter course Semester" id="editPoints" class="form-control" ng-model="courseCtrl.editCourses[0].Semester" />
+                 <label>This course is exempt : </label><input type="checkbox" checked="courseCtrl.editCourses[0].Exempt" 
+                                                              ng-model="courseCtrl.editCourses[0].Exempt" />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" style="float:left" data-dismiss="modal"
+                        ng-click="courseCtrl.editCourse(courseCtrl.editCourses[0].Name, courseCtrl.editCourses[0].Grade,
+                         courseCtrl.editCourses[0].Points, courseCtrl.editCourses[0].Semester, courseCtrl.editCourses[0].Exempt)">
+                    Save</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+</div>
+</div>

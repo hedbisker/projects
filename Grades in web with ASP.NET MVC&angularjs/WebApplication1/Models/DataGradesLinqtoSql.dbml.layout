@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataGradesLinqtoSql">
+  <DataContextMoniker Name="/DataGradesLinqtoSqlDataContext" />
+  <nestedChildShapes>
+    <classShape Id="769fc0c3-8ab5-4f07-889a-cc61f737eef5" absoluteBounds="3.75, 0.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/DataGradesLinqtoSqlDataContext/tblStudent" />
+      <nestedChildShapes>
+        <elementListCompartment Id="121e222a-f4a7-4322-96be-2827cb7b01aa" absoluteBounds="3.765, 1.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3e2b6988-87f4-408a-868f-98c60ca87ffb" absoluteBounds="1.75, 2.5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/DataGradesLinqtoSqlDataContext/tblCourse" />
+      <nestedChildShapes>
+        <elementListCompartment Id="79141ef7-7a77-4984-913f-58fb68a4fcd1" absoluteBounds="1.7650000000000001, 2.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

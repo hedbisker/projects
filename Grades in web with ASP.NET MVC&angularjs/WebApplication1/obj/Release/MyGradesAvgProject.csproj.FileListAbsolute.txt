@@ -1,0 +1,6 @@
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\bin\WebApplication1.pdb
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Release\MyGradesAvgProject.csprojResolveAssemblyReference.cache
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Release\WebApplication1.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\WebApplication1\obj\Release\WebApplication1.pdb

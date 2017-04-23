@@ -1,0 +1,130 @@
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\obj\Debug\UnitTestGradesWebSite.csprojResolveAssemblyReference.cache
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\UnitTestGradesWebSite.dll
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\UnitTestGradesWebSite.pdb
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\WebApplication1.dll
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.Mvc.dll
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.Optimization.dll
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Owin.dll
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Owin.dll
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\EntityFramework.dll
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.Razor.dll
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.WebPages.dll
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\WebApplication1.pdb
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\obj\Debug\UnitTestGradesWebSite.dll
+C:\Users\hed\Dropbox\עבודות תכנות\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\obj\Debug\UnitTestGradesWebSite.pdb
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\UnitTestGradesWebSite.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\UnitTestGradesWebSite.pdb
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\WebApplication1.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Owin.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.Optimization.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.Mvc.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Owin.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\EntityFramework.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.Razor.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.WebPages.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\WebApplication1.pdb
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\obj\Debug\UnitTestGradesWebSite.csprojResolveAssemblyReference.cache
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\obj\Debug\UnitTestGradesWebSite.dll
+C:\Users\hed\Dropbox\SelfLearning\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\obj\Debug\UnitTestGradesWebSite.pdb
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\UnitTestGradesWebSite.dll
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\UnitTestGradesWebSite.pdb
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\WebApplication1.dll
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Owin.dll
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.Optimization.dll
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.Mvc.dll
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Owin.dll
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\EntityFramework.dll
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.Razor.dll
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.WebPages.dll
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\WebApplication1.pdb
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\obj\Debug\UnitTestGradesWebSite.csprojResolveAssemblyReference.cache
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\obj\Debug\UnitTestGradesWebSite.dll
+C:\Users\hed\Documents\GitHub\My-Projects\ASP.NET,  MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\obj\Debug\UnitTestGradesWebSite.pdb
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\UnitTestGradesWebSite.dll
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\UnitTestGradesWebSite.pdb
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\WebApplication1.dll
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Owin.dll
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.Optimization.dll
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.Mvc.dll
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Owin.dll
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\EntityFramework.dll
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.Razor.dll
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.WebPages.dll
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\WebApplication1.pdb
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\obj\Debug\UnitTestGradesWebSite.csprojResolveAssemblyReference.cache
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\obj\Debug\UnitTestGradesWebSite.dll
+C:\Users\hed\Documents\GitHub\project\project\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\obj\Debug\UnitTestGradesWebSite.pdb
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\UnitTestGradesWebSite.dll
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\UnitTestGradesWebSite.pdb
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\WebApplication1.dll
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Owin.dll
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.Optimization.dll
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.Mvc.dll
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Owin.dll
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\EntityFramework.dll
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.Razor.dll
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.WebPages.dll
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\bin\Debug\WebApplication1.pdb
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\obj\Debug\UnitTestGradesWebSite.csprojResolveAssemblyReference.cache
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\obj\Debug\UnitTestGradesWebSite.dll
+C:\Users\hedbi\Dropbox\SelfLearning\ASP.NET-MVC\Grades in web with ASP.NET MVC&angularjs\UnitTestGradesWebSite\obj\Debug\UnitTestGradesWebSite.pdb

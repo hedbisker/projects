@@ -1,0 +1,30 @@
+﻿<html>
+<head>
+    <meta charset="UTF-8">
+    <title>A grade show and average</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/cssStyle.css">
+</head>
+<body data-ng-controller="setupController as setupCtrl">
+        <div ng-init="setupCtrl.initUser()">
+            <nav class="navbar navbar-inverse" role="navigation" style="padding-left:130px;">
+                <ul class="nav navbar-nav" ng-model="user">
+                    <li class="" id="navHome"><a ng-click="setupCtrl.activeRefresh('navHome')" href="#/">Home</a></li>
+                    <li class="" id="navRegister"><a ng-click="setupCtrl.activeRefresh('navRegister')" href="#/register">Register a new account</a></li>
+                    <li class="" id="navLogin"><a ng-click="setupCtrl.activeRefresh('navLogin')" href="#/login">Login to your user</a></li>
+                    <li class="" id="navCourse"><a ng-click="setupCtrl.activeRefresh('navCourse')" href="#/courses">Courses page</a></li>
+                    <li class="" id="navDraw"><a ng-click="setupCtrl.activeRefresh('navDraw')" href="#/draw">Statistics page</a></li>
+                </ul>
+            </nav>
+            <div>
+                <label class="text-success" style="font-size:25px" ng-init="setupCtrl.initUser()" ng-cloak>You logged with username : {{setupCtrl.user}}</label>
+                <button class="btn-lg btn-warning" ng-click="setupCtrl.logout()" style="float:right">Log out</button>
+            </div>
+        </div>
+        <br />
+
+        <div ng-view class="jumbotron"></div>
+        <script data-main="../scripts/require-config" src="../scripts/require/require.js"></script>
+</body>
+</html>
