@@ -47,11 +47,11 @@
     </Reference>
     <Reference Include="Extenctions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>refs\Extenctions.dll</HintPath>
+      <HintPath>..\Extenctions\bin\Release\Extenctions.dll</HintPath>
     </Reference>
     <Reference Include="HelperFunctions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>refs\HelperFunctions.dll</HintPath>
+      <HintPath>..\HelperFunctions\bin\Release\HelperFunctions.dll</HintPath>
     </Reference>
     <Reference Include="HtmlAgilityPack, Version=1.4.9.5, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
       <HintPath>..\packages\HtmlAgilityPack.1.4.9.5\lib\Net45\HtmlAgilityPack.dll</HintPath>
@@ -59,7 +59,7 @@
     </Reference>
     <Reference Include="Models, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>refs\Models.dll</HintPath>
+      <HintPath>..\Models\bin\Release\Models.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.10.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -79,7 +79,6 @@
     <Compile Include="Bot\PopcorenTimeBot.cs" />
     <Compile Include="Bot\SubsMoviesBot.cs" />
     <Compile Include="Infrastructure\HtmlManager.cs" />
-    <Compile Include="Infrastructure\Logger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

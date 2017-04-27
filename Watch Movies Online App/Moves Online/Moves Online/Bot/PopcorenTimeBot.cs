@@ -85,45 +85,31 @@ namespace Moves_Online_Downloader
                     {
                         Thread.Sleep(1);
                     }
-                }// new ParallelOptions { MaxDegreeOfParallelism = 1 },
-                Parallel.ForEach(rootModelStrings, new ParallelOptions { MaxDegreeOfParallelism = 20 }, jsonMovie =>
+                }
+                Parallel.ForEach(rootModelStrings, jsonMovie =>
                 {
                     Rootobject rootObject = jsonMovie.FromJsonToObject<Rootobject>();
-                    //ConcurrentBag<Movie> listTemp = new ConcurrentBag<Movie>();
-                    //while (Process.GetCurrentProcess().Threads.Count > 400)
-                    //{
-                    //    Thread.Sleep(100);
-                    //}
 
-                        Parallel.ForEach(rootObject.MovieList,new ParallelOptions { MaxDegreeOfParallelism=20}, movie =>
+                        Parallel.ForEach(rootObject.MovieList, movie =>
                         {
-                            //System.Diagnostics.Process.GetCurrentProcess().Threads
-                            //    foreach (Movielist movie in rootObject.MovieList)
-                            //{
-
                             string s = movie.genres.Join(" | ");
                             string link = movieLink + movie.title.Replace(" ", "-").Replace("(", "").Replace(")", "") + ".html?imdb=" + movie.id;
                             if (_minYear <= movie.year && movie.year <= _maxYear)
                             {
                                 if (movie.genres.Select(name => name.ToLower()).Contains(_categoryText.ToLower()) || string.IsNullOrEmpty(_categoryText))
                                 {
+                                    ImdbObject imdbMovie = ImdbObject.downloadImdbObjectById(movie.imdb);
 
-                                        string html = $"http://www.imdb.com/title/{movie.imdb}".DownloadStringHtmlPageFromUrl();
-                                        HtmlDocument docTest = new HtmlDocument();
-                                        docTest.LoadHtml(html);
-                                        HtmlNode siteTest = docTest.GetElementbyId("title-overview-widget");//Get deppest I can by id
-                                        List<HtmlNode> availableSubtitlesBody = siteTest.Search("itemprop", "duration");
+                                    double rate;
+                                    if (double.TryParse(imdbMovie.imdbRating, out rate) == false)
+                                    {
+                                        rate = 0;
+                                    }
+                                    
+                                    _movies.Add(new Movie(movie.title, movie.year, NormalizationLength(imdbMovie.Runtime),
+                                        s, Math.Round(rate, 1),'m', link.ToLower(), "", imdbMovie.imdbID,imdbMovie.Poster));
 
-                                        string time = "0";
-                                        if (availableSubtitlesBody != null)
-                                        {
-                                            time = availableSubtitlesBody.First().InnerText.Trim();
-                                        }
-
-                                        _movies.Add(new Movie(movie.title, movie.year, NormalizationLength(time),
-                                            s, movie.rating,'m', link.ToLower(), ""));
-
-                                        Console.WriteLine($"downloaded movie from Popcoren {movie.title} {movie.year}");
+                                    Console.WriteLine($"downloaded movie from Popcoren {movie.title} {movie.year}");
                                 }
                             }
                         });

@@ -10,3 +10,7 @@ c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\He
 c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\HelperFunctions\obj\Release\HelperFunctions.csprojResolveAssemblyReference.cache
 c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\HelperFunctions\obj\Release\HelperFunctions.dll
 c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\HelperFunctions\obj\Release\HelperFunctions.pdb
+C:\Users\hedbi\OneDrive\מסמכים\Visual Studio 2015\Projects\Moves Online\HelperFunctions\bin\Release\Constants.dll
+C:\Users\hedbi\OneDrive\מסמכים\Visual Studio 2015\Projects\Moves Online\HelperFunctions\bin\Release\Models.dll
+C:\Users\hedbi\OneDrive\מסמכים\Visual Studio 2015\Projects\Moves Online\HelperFunctions\bin\Release\Constants.pdb
+C:\Users\hedbi\OneDrive\מסמכים\Visual Studio 2015\Projects\Moves Online\HelperFunctions\bin\Release\Models.pdb

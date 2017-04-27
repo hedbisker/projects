@@ -65,13 +65,13 @@ namespace Moves_Online_Downloader
             }
         }
 
-        public static readonly string[] moviesCategory = {
+        public static readonly HashSet<string> moviesCategory = new HashSet<string>{
             "action", "thriller", "mystery", "comedy", "romance", "adventure", "horror",
             "sci-fi", "fantasy", "animation", "biography", "crime", "drama", "family",
             "history", "music", "musical", "sport", "war", "western", "documentary"
         };
 
-        public static readonly string[] subtittles = {"English",
+        public static readonly HashSet<string> subtittles = new HashSet<string> {"English",
             "Afrikaans","Albanian","Arabic","Armenian","Basque","Bengali","Bosnian",
             "Breton","Bulgarian","Burmese","Catalan", "Chinese","Chinese(simplified)",
             "Chinese(traditional)","Chinese + English","Chinese bilingual","Croatian",

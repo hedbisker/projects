@@ -1,4 +1,5 @@
 ﻿using Moves_Online_Downloader;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -6,6 +7,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -16,27 +18,35 @@ namespace Movies_Online_Desktop_App
 {
     public partial class Form1 : Form
     {
-        private string nameFile = "DBfileForAllMovies";
-        private IEnumerable<Movie> _moviesList;
+        private List<Movie> _moviesList;
+        private List<Movie> _blackList;
         private IEnumerable<Movie> _moviesListFiltered;
         private BindingList<MovieDataForUser> _moviesBinding;
-        private FilterSet _filterSet;
+        private GridType gridModChanged = GridType.AllMovies;// 0 - allMovies 1 - moves to watch, 2 - black list
+        enum GridType { AllMovies = 0, RelevanlMovies, NotRelevantMovies };
+        private DataManager dataManager;
+        private Dictionary<string, string> imagesMap;
         public Form1()
         {
             InitializeComponent();
-            _filterSet = new FilterSet();
+            _blackList = new List<Movie>();
+            dataManager = new DataManager();
+            imagesMap = new Dictionary<string,string>();
+            dataManager.DefineLocalSpace();
         }
-
+        private object o = new object();
         private void Resorting()
         {
             if (sortListBox.Items.Count > 0)
             {
                 IEnumerable<Movie> movies = _moviesListFiltered;
-                IOrderedEnumerable<Movie> tmpMovies = movies.OrderByDescending(m => m.GetType().GetProperty(Convert.ToString(sortListBox.Items[0])).GetValue(m));
+                string sortBy = sortListBox.Items[0].ToString();
+                IOrderedEnumerable<Movie> tmpMovies = movies.OrderByDescending(m => m.GetType().GetProperty(sortBy).GetValue(m));
                 for (int i = 1; i < sortListBox.Items.Count; i++)
                 {
                     int thisI = i;
-                    tmpMovies = tmpMovies.ThenByDescending(m => m.GetType().GetProperty(Convert.ToString(sortListBox.Items[thisI])).GetValue(m));
+                    sortBy = Convert.ToString(sortListBox.Items[thisI]);
+                    tmpMovies = tmpMovies.ThenByDescending(m => m.GetType().GetProperty(sortBy).GetValue(m));
                 }
                 _moviesListFiltered = tmpMovies;
             }
@@ -67,18 +77,37 @@ namespace Movies_Online_Desktop_App
         private void dataGridView1_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             DataGridView dgv = (DataGridView)sender;
+            // e.Button
             switch (e.ColumnIndex)
             {
                 case 0:
                     if (e.RowIndex > -1)
                     {
                         Movie movie = _moviesListFiltered.ToList().Find(m => m.Title.Equals(dgv[e.ColumnIndex, e.RowIndex].Value));
-                        ProcessStartInfo processStartInfo = new ProcessStartInfo(movie.Url);
-                        Process process = new Process();
-                        process.StartInfo = processStartInfo;
-                        if (process.Start())
+                        if (e.Button.CompareTo(MouseButtons.Left) == 0)
                         {
-                            // That didn't work
+                            ProcessStartInfo processStartInfo = new ProcessStartInfo(movie.Url);
+                            Process process = new Process();
+                            process.StartInfo = processStartInfo;
+                            if (process.Start())
+                            {
+                                // That didn't work
+                            }
+                        }
+                        else if (e.Button.CompareTo(MouseButtons.Right) == 0)
+                        {
+                            if (gridModChanged.Equals(GridType.RelevanlMovies))
+                            {
+                                _blackList.Add(movie);
+                                dataManager.UpdateBlackList(_blackList);
+                                _moviesList.RemoveAll(m => m.Title.ToLower().Equals(movie.Title.ToLower()));
+                            }
+                            if (gridModChanged.Equals(GridType.NotRelevantMovies))
+                            {
+                                _blackList.RemoveAll(m => m.Title.ToLower().Equals(movie.Title.ToLower()));
+                                _moviesList.Add(movie);
+                            }
+                            FilterRuner();
                         }
                     }
                     break;
@@ -95,46 +124,50 @@ namespace Movies_Online_Desktop_App
 
         private void startSearch_Click(object sender, EventArgs e)
         {
-            _moviesList = System.IO.File.ReadAllText(@"c:\" + nameFile).FromJsonToObject<IEnumerable<Movie>>();
+            LoaderData();
+        }
+        private void LoaderData()
+        {
+            _moviesList = dataManager.GetAllMovies();
+
+            _blackList = dataManager.GetBlackList();
+
             TittleFiltertextBox.AutoCompleteCustomSource.AddRange(_moviesList.Select(m => m.Title).ToArray());
+            if (_blackList != null)
+            {
+                Parallel.ForEach(_blackList, blackListMovie =>
+                {
+                    _moviesList.RemoveAll(m=>m.Title.EqualsValue(blackListMovie.Title));
+                });
+            }
             _moviesListFiltered = _moviesList;
             FilterRuner();
-            Resorting();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             _moviesList = new List<Movie>();
             _moviesListFiltered = new List<Movie>();
-            subtittleFilter.AutoCompleteCustomSource.AddRange(Data.subtittles);
-            categoryFilter.AutoCompleteCustomSource.AddRange(Data.moviesCategory);
+            subtittleFilter.AutoCompleteCustomSource.AddRange(Data.subtittles.ToArray());
+            categoryFilter.AutoCompleteCustomSource.AddRange(Data.moviesCategory.ToArray());
             yearFilter.AutoCompleteCustomSource.AddRange(Data.YearsLimit.ToArray());
             rateFilter.AutoCompleteCustomSource.AddRange(Data.RateLimit.ToArray());
             lengthFilter.AutoCompleteCustomSource.AddRange(Data.LengthLimit.ToArray());
 
-            _moviesList = System.IO.File.ReadAllText(@"c:\" + nameFile).FromJsonToObject<IEnumerable<Movie>>();
-            TittleFiltertextBox.AutoCompleteCustomSource.AddRange(_moviesList.Select(m => m.Title).ToArray());
-            _moviesListFiltered = _moviesList;
-            FilterRuner();
-            Resorting();
+            LoaderData();
         }
 
         private void updateBindingList(IEnumerable<Movie> moviesListTemp)
         {
-            //IEnumerable <MovieDataForUser> movieDataListTemp = moviesListTemp.Select(m => m.movieDataForUser);
-            
-
-            //IList<MovieDataForUser> ll = movieDataListTemp.ToArray();
-
             _moviesBinding = new BindingList<MovieDataForUser>(moviesListTemp.Select(m => m.movieDataForUser).ToArray());
             SetBindingSourceDataSource(_moviesBinding);
             SetCountOfMovies(_moviesBinding.Count);
         }
 
-        public void SetCountOfMovies(int newDataSource)
+        public void SetCountOfMovies(long newDataSource)
         {
             if (InvokeRequired)
-                Invoke(new Action<int>(SetCountOfMovies), newDataSource);
+                Invoke(new Action<long>(SetCountOfMovies), newDataSource);
             else moviesCount.Text = newDataSource.ToString();
         }
 
@@ -151,40 +184,30 @@ namespace Movies_Online_Desktop_App
             runStatus.Text = "Wait Canceling";
         }
 
-        private void movieYearTextBox_Validating(object sender, CancelEventArgs e)
+
+        private IEnumerable<Movie> getTheCurrentList()
         {
-            string yearTxt = ((TextBox)sender).Text;
-            e.Cancel = (!Data.YearsLimit.Contains(yearTxt));
-            if (e.Cancel)
+            if (gridModChanged.Equals(GridType.AllMovies))
             {
-                MessageBox.Show("Incorrect year");
+                _moviesList.AddRange(_blackList);
+                return _moviesList;
             }
-        }
-
-
-        private void movieCategoryTextBox_Validating(object sender, CancelEventArgs e)
-        {
-            string categoryText = ((TextBox)sender).Text;
-            e.Cancel = !(Data.moviesCategory.Contains(categoryText) || categoryText.Length == 0);
-            if (e.Cancel)
+            else if (gridModChanged.Equals(GridType.RelevanlMovies))
             {
-                MessageBox.Show("Incorrect category");
+                return _moviesList;
             }
-        }
-
-        private void subtittleTextBox_Validating(object sender, CancelEventArgs e)
-        {
-            string subtittleText = ((TextBox)sender).Text;
-            e.Cancel = !(Data.subtittles.Contains(subtittleText) || subtittleText.Length == 0);
-            if (e.Cancel)
+            else if (gridModChanged.Equals(GridType.NotRelevantMovies))
             {
-                MessageBox.Show("Incorrect subtittles");
+                return _blackList;
             }
+            return new List<Movie>();
         }
-
 
         private void FilterRuner()
         {
+            //set the relevant list
+            IEnumerable<Movie> temp = getTheCurrentList();
+
             string tittle = TittleFiltertextBox.Text,
                 cat = categoryFilter.Text,
                 subs = subtittleFilter.Text,
@@ -193,8 +216,7 @@ namespace Movies_Online_Desktop_App
                 rate = rateFilter.Text;
 
 
-            IEnumerable<Movie> temp = _moviesList.Where(movie =>
-            (movie.Title.ToLower().Contains(tittle.ToLower())));
+            temp = temp.Where(movie => (movie.Title.ToLower().Contains(tittle.ToLower())));
 
             temp = temp.Where(movie => movie.Categories.ToLower().Contains(cat.ToLower()));
 
@@ -244,9 +266,23 @@ namespace Movies_Online_Desktop_App
                 }
             }
             _moviesListFiltered = temp;
-            updateBindingList(_moviesListFiltered.ToList());
-        }
 
+            //(new Thread(delegate () {
+                Array.ForEach<Movie>(temp.ToArray(), movie =>
+                {
+                    string outLink;
+                    string key = movie.Title + movie.Year + movie.Length;
+                    if (!imagesMap.TryGetValue(key, out outLink))
+                    {
+                        imagesMap.Add(key, movie.ImageLink);
+                    }
+                });
+            //})).Start();
+
+            updateBindingList(_moviesListFiltered.ToList());
+            Resorting();
+        }
+        
 
         private void TittleFiltertextBox_TextChanged(object sender, EventArgs e)
         {
@@ -292,36 +328,96 @@ namespace Movies_Online_Desktop_App
             FilterRuner();
         }
 
+        private bool GenericValidatingProp(string propText, HashSet<string> setForValidating, string errorMsg)
+        {
+            bool cancel = (!setForValidating.Contains(propText) && !string.IsNullOrEmpty(propText));
+            if (cancel)
+            {
+                MessageBox.Show(errorMsg);
+            }
+            return cancel;
+        }
+
+        private void movieCategoryTextBox_Validating(object sender, CancelEventArgs e)
+        {
+            e.Cancel = GenericValidatingProp(((TextBox)sender).Text, Data.moviesCategory, "Incorrect category");
+        }
+
+        private void subtittleTextBox_Validating(object sender, CancelEventArgs e)
+        {
+            e.Cancel = GenericValidatingProp(((TextBox)sender).Text, Data.subtittles, "Incorrect subtittles");
+        }
+
         private void yearFilter_Validating(object sender, CancelEventArgs e)
         {
-            string yearTxt = ((TextBox)sender).Text;
-            e.Cancel = (!Data.YearsLimit.Contains(yearTxt));
-            if (e.Cancel)
-            {
-                MessageBox.Show("Incorrect year");
-            }
+            e.Cancel = GenericValidatingProp(((TextBox)sender).Text, Data.YearsLimit, "Incorrect year");
         }
 
         private void lengthFilter_Validating(object sender, CancelEventArgs e)
         {
-            string lenTxt = ((TextBox)sender).Text;
-            e.Cancel = (!Data.LengthLimit.Contains(lenTxt));
-            if (e.Cancel)
-            {
-                MessageBox.Show("Incorrect length");
-            }
+            e.Cancel = GenericValidatingProp(((TextBox)sender).Text, Data.LengthLimit, "Incorrect length");
         }
 
         private void rateFilter_Validating(object sender, CancelEventArgs e)
         {
-            string rateTxt = ((TextBox)sender).Text;
-            e.Cancel = (!Data.RateLimit.Contains(rateTxt));
-            if (e.Cancel)
+            e.Cancel = GenericValidatingProp(((TextBox)sender).Text, Data.RateLimit, "Incorrect rate");
+        }
+
+        private void gridChanger_Click(object sender, EventArgs e)
+        {
+            if (gridModChanged.Equals(GridType.AllMovies))
             {
-                MessageBox.Show("Incorrect rate");
+                gridModChanged = GridType.RelevanlMovies;
+                gridChanger.Text = "To not relevant movies";
+                gridModText.Text = "Relevant Movies";
+            }
+            else if (gridModChanged.Equals(GridType.RelevanlMovies))
+            {
+                gridModChanged = GridType.NotRelevantMovies;
+                gridChanger.Text = "To all movies";
+                gridModText.Text = "Black List";
+
+            }
+            else if (gridModChanged.Equals(GridType.NotRelevantMovies))
+            {
+                gridModChanged = GridType.AllMovies;
+                gridChanger.Text = "To relevant movies";
+                gridModText.Text = "All movies";
+            }
+            FilterRuner();
+        }
+
+        public void SetPictureOnpictureBox1(string src)
+        {
+            if (InvokeRequired)
+                Invoke(new Action<string>(SetPictureOnpictureBox1), src);
+            else
+            {
+                pictureBox1.Load(src);
+                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             }
         }
 
+        private void dataGridView1_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+           
+        }
 
+
+        private void dataGridView1_CellMouseMove(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            if (e.RowIndex == -1)
+            {
+                return;
+            }
+            string key = ((DataGridView)sender)[0, e.RowIndex].Value.ToString() +
+                ((DataGridView)sender)[1, e.RowIndex].Value.ToString() + ((DataGridView)sender)[2, e.RowIndex].Value.ToString().ToComparableLength();
+
+            string link = imagesMap[key];
+            if (link != null && !link.EqualsValue("N/A"))
+            {
+                pictureBox1.LoadAsync(link);
+            }
+        }
     }
 }

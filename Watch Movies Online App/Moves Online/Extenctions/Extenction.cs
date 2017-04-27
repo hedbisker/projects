@@ -87,6 +87,11 @@ namespace Moves_Online_Downloader
             return string.Join(joinBy, self);
         }
 
+        public static bool EqualsValue(this string self,string stringToCompare)
+        {
+            return self.ToLower().Equals(stringToCompare.ToLower());
+        }
+
         public static string Join(this IEnumerable<string> self, string joinBy)
         {
             return string.Join(joinBy, self);
@@ -121,6 +126,7 @@ namespace Moves_Online_Downloader
                 return Int32.Parse(len.Remove("min"));
             }
         }
+        
 
     }
 

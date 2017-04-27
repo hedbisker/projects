@@ -145,7 +145,7 @@ namespace Moves_Online_Downloader
                         int start = 0;
                         Parallel.For(start, albums.Count, ((i) =>
                          {
-                             string specificMovieDataHolderInfoString = (url + albums[i].Attributes["href"].Value).DownloadStringHtmlPageFromUrl();
+                             string specificMovieDataHolderInfoString = (url + albums[(int)i].Attributes["href"].Value).DownloadStringHtmlPageFromUrl();
                              HtmlDocument specificMovieDataHolderInfoSite = new HtmlDocument();
                              specificMovieDataHolderInfoSite.LoadHtml(specificMovieDataHolderInfoString);
                              HtmlNode site2 = specificMovieDataHolderInfoSite.GetElementbyId("full_site");
@@ -158,14 +158,27 @@ namespace Moves_Online_Downloader
                                  HtmlNodeCollection movieInfo = specificMovieDataHolderInfo[0].ChildNodes;
 
                                  double rate;
-                                 if(Double.TryParse(movieInfo[9].InnerText.Split().Last(),out rate) == false)
+                                 string imdbId = $"tt{albums[(int)i].Attributes["href"].Value.Split("=").Last()}";
+                                 ImdbObject imdbMovie = ImdbObject.downloadImdbObjectById(imdbId);
+                                 if (imdbMovie.Response.EqualsValue("False"))
+                                 {
+                                     return;
+                                 }
+                                 if (double.TryParse(imdbMovie.imdbRating, out rate) == false)
                                  {
                                      rate = 0;
                                  }
+                                 
 
-                                 Movie m = new Movie(movieInfo[1].InnerText, Int32.Parse(movieInfo[3].InnerText.Split().Last()),
-                                     NormalizationLength(movieInfo[5].InnerText.Split().Skip(1).Join("")), movieInfo[7].InnerText.Split().Skip(1).Join(" "),
-                                     rate , IsShowType(movieInfo[1].InnerText), movieInfo[17].ChildNodes[1].Attributes["data-href"].Value, subsList);
+                                 Movie m = new Movie(imdbMovie.Title, Int32.Parse(Regex.Replace(imdbMovie.Year, @"[^\d]",string.Empty)),
+                                     NormalizationLength(imdbMovie.Runtime), imdbMovie.Genre, rate, IsShowType(movieInfo[1].InnerText),
+                                     movieInfo[17].ChildNodes[1].Attributes["data-href"].Value, subsList, imdbMovie.imdbID, imdbMovie.Poster);
+
+                                 //Movie m = new Movie(movieInfo[1].InnerText, Int32.Parse(movieInfo[3].InnerText.Split().Last()),
+                                 //    NormalizationLength(movieInfo[5].InnerText.Split().Skip(1).Join("")),
+                                 //    movieInfo[7].InnerText.Split().Skip(1).Join(" "), rate, IsShowType(movieInfo[1].InnerText),
+                                 //    movieInfo[17].ChildNodes[1].Attributes["data-href"].Value, subsList, imdbMovie.imdbID
+                                 //    ,);
 
                                  _movies.Add(m);
 

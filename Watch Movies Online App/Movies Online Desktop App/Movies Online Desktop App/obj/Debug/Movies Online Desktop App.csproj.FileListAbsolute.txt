@@ -20,25 +20,3 @@ c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Movies Online D
 c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Movies Online Desktop App\Movies Online Desktop App\bin\Debug\Extenctions.pdb
 c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Movies Online Desktop App\Movies Online Desktop App\bin\Debug\HelperFunctions.dll
 c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Movies Online Desktop App\Movies Online Desktop App\bin\Debug\HelperFunctions.pdb
-C:\Users\hedbi\OneDrive\מסמכים\GitHub\projects\Watch Movies Online App\Movies Online Desktop App\Movies Online Desktop App\bin\Debug\Movies Online Desktop App.exe.config
-C:\Users\hedbi\OneDrive\מסמכים\GitHub\projects\Watch Movies Online App\Movies Online Desktop App\Movies Online Desktop App\obj\Debug\Movies Online Desktop App.exe
-C:\Users\hedbi\OneDrive\מסמכים\GitHub\projects\Watch Movies Online App\Movies Online Desktop App\Movies Online Desktop App\obj\Debug\Movies Online Desktop App.pdb
-C:\Users\hedbi\OneDrive\מסמכים\GitHub\projects\Watch Movies Online App\Movies Online Desktop App\Movies Online Desktop App\bin\Debug\Movies Online Desktop App.exe
-C:\Users\hedbi\OneDrive\מסמכים\GitHub\projects\Watch Movies Online App\Movies Online Desktop App\Movies Online Desktop App\bin\Debug\Movies Online Desktop App.pdb
-C:\Users\hedbi\OneDrive\מסמכים\GitHub\projects\Watch Movies Online App\Movies Online Desktop App\Movies Online Desktop App\bin\Debug\Constants.dll
-C:\Users\hedbi\OneDrive\מסמכים\GitHub\projects\Watch Movies Online App\Movies Online Desktop App\Movies Online Desktop App\bin\Debug\Extenctions.dll
-C:\Users\hedbi\OneDrive\מסמכים\GitHub\projects\Watch Movies Online App\Movies Online Desktop App\Movies Online Desktop App\bin\Debug\HelperFunctions.dll
-C:\Users\hedbi\OneDrive\מסמכים\GitHub\projects\Watch Movies Online App\Movies Online Desktop App\Movies Online Desktop App\bin\Debug\HtmlAgilityPack.dll
-C:\Users\hedbi\OneDrive\מסמכים\GitHub\projects\Watch Movies Online App\Movies Online Desktop App\Movies Online Desktop App\bin\Debug\Models.dll
-C:\Users\hedbi\OneDrive\מסמכים\GitHub\projects\Watch Movies Online App\Movies Online Desktop App\Movies Online Desktop App\bin\Debug\Newtonsoft.Json.dll
-C:\Users\hedbi\OneDrive\מסמכים\GitHub\projects\Watch Movies Online App\Movies Online Desktop App\Movies Online Desktop App\bin\Debug\Constants.pdb
-C:\Users\hedbi\OneDrive\מסמכים\GitHub\projects\Watch Movies Online App\Movies Online Desktop App\Movies Online Desktop App\bin\Debug\Extenctions.pdb
-C:\Users\hedbi\OneDrive\מסמכים\GitHub\projects\Watch Movies Online App\Movies Online Desktop App\Movies Online Desktop App\bin\Debug\HelperFunctions.pdb
-C:\Users\hedbi\OneDrive\מסמכים\GitHub\projects\Watch Movies Online App\Movies Online Desktop App\Movies Online Desktop App\bin\Debug\HtmlAgilityPack.pdb
-C:\Users\hedbi\OneDrive\מסמכים\GitHub\projects\Watch Movies Online App\Movies Online Desktop App\Movies Online Desktop App\bin\Debug\HtmlAgilityPack.xml
-C:\Users\hedbi\OneDrive\מסמכים\GitHub\projects\Watch Movies Online App\Movies Online Desktop App\Movies Online Desktop App\bin\Debug\Models.pdb
-C:\Users\hedbi\OneDrive\מסמכים\GitHub\projects\Watch Movies Online App\Movies Online Desktop App\Movies Online Desktop App\bin\Debug\Newtonsoft.Json.xml
-C:\Users\hedbi\OneDrive\מסמכים\GitHub\projects\Watch Movies Online App\Movies Online Desktop App\Movies Online Desktop App\obj\Debug\Movies Online Desktop App.csprojResolveAssemblyReference.cache
-C:\Users\hedbi\OneDrive\מסמכים\GitHub\projects\Watch Movies Online App\Movies Online Desktop App\Movies Online Desktop App\obj\Debug\Movies_Online_Desktop_App.Form1.resources
-C:\Users\hedbi\OneDrive\מסמכים\GitHub\projects\Watch Movies Online App\Movies Online Desktop App\Movies Online Desktop App\obj\Debug\Movies_Online_Desktop_App.Properties.Resources.resources
-C:\Users\hedbi\OneDrive\מסמכים\GitHub\projects\Watch Movies Online App\Movies Online Desktop App\Movies Online Desktop App\obj\Debug\Movies Online Desktop App.csproj.GenerateResource.Cache

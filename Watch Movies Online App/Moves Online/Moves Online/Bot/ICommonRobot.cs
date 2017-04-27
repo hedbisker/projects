@@ -15,6 +15,11 @@ namespace Moves_Online_Downloader
         protected int NormalizationLength(string len)
         {
             int lenInt = 0;
+            if(len == null)
+            {
+                return 0;
+            }
+            //Get time as miniuts int from string format
             if (Regex.IsMatch(len, @"^\d+\s*(h|hr|hour|hours) \d+\s*(m|min|minute|minutes)$", RegexOptions.Compiled | RegexOptions.IgnoreCase))
             {
                 string[] lens = len.Split();

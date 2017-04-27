@@ -1,14 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGradesAvgProject", "WebApplication1\MyGradesAvgProject.csproj", "{2788FB0B-0D30-4E4F-B00E-F44D4FA3D640}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5A148D8A-9820-4844-9044-2AE54BD7BF3B}"
-	ProjectSection(SolutionItems) = preProject
-		HTMLPage1.html = HTMLPage1.html
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestGradesWebSite", "UnitTestGradesWebSite\UnitTestGradesWebSite.csproj", "{6C7AF37C-DED7-40F0-904E-68225661DAAB}"
 EndProject

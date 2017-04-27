@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Extenctions">
+      <HintPath>..\Moves Online\refs\Extenctions.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataManager.cs" />
+    <Compile Include="ImdbObject.cs" />
     <Compile Include="ModelPopcorenTime.cs" />
     <Compile Include="Movie.cs" />
     <Compile Include="MovieDataForUser.cs" />

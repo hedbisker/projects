@@ -8,3 +8,5 @@ c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Ex
 c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Extenctions\obj\Release\Extenctions.dll
 c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Extenctions\obj\Release\Extenctions.pdb
 c:\users\hedbi\onedrive\מסמכים\visual studio 2015\Projects\Moves Online\Extenctions\obj\Release\Extenctions.csprojResolveAssemblyReference.cache
+C:\Users\hedbi\OneDrive\מסמכים\Visual Studio 2015\Projects\Moves Online\Extenctions\bin\Release\Models.dll
+C:\Users\hedbi\OneDrive\מסמכים\Visual Studio 2015\Projects\Moves Online\Extenctions\bin\Release\Models.pdb

@@ -14,18 +14,16 @@ namespace Moves_Online_Downloader
         public string Length { get;  set; }
         public string Categories { get; set; }
         public string Rate { get; set; }
-        private string url;
-        public MovieDataForUser(string title, int year, string length, string categories, double rate, string url)
+        public string Subtittles { get; set; }
+        public MovieDataForUser(string title, int year, string length, string categories, double rate,string subtittles)
         {
             Title = title;
             Year = year.ToString();
             Length = length;
             Categories = categories;
             Rate = rate.ToString();
-            this.url = url;
+            Subtittles = subtittles;
         }
-        public string getUrl() { return url; }
-
 
         public override bool Equals(Object obj)
         {
@@ -50,7 +48,7 @@ namespace Moves_Online_Downloader
         public override int GetHashCode()
         {
             return Title.GetHashCode() ^ Length.GetHashCode() ^ Year.GetHashCode() ^
-                Categories.GetHashCode() ^ Rate.GetHashCode() ^ url.GetHashCode();
+                Categories.GetHashCode() ^ Rate.GetHashCode() ^ Subtittles.GetHashCode();
         }
     }
 }

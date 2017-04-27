@@ -51,13 +51,17 @@
             this.labble = new System.Windows.Forms.Label();
             this.yearFilter = new System.Windows.Forms.TextBox();
             this.incorrectFilter = new System.Windows.Forms.Label();
+            this.gridChanger = new System.Windows.Forms.Button();
+            this.gridModText = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // StopBtn
             // 
             this.StopBtn.Font = new System.Drawing.Font("Verdana", 12F);
-            this.StopBtn.Location = new System.Drawing.Point(907, 308);
+            this.StopBtn.Location = new System.Drawing.Point(818, 78);
             this.StopBtn.Margin = new System.Windows.Forms.Padding(2);
             this.StopBtn.Name = "StopBtn";
             this.StopBtn.Size = new System.Drawing.Size(222, 34);
@@ -116,7 +120,7 @@
             // 
             this.moviesCount.AutoSize = true;
             this.moviesCount.Font = new System.Drawing.Font("Verdana", 12F);
-            this.moviesCount.Location = new System.Drawing.Point(1040, 238);
+            this.moviesCount.Location = new System.Drawing.Point(951, 8);
             this.moviesCount.Name = "moviesCount";
             this.moviesCount.Size = new System.Drawing.Size(18, 18);
             this.moviesCount.TabIndex = 30;
@@ -126,7 +130,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Verdana", 12F);
-            this.label3.Location = new System.Drawing.Point(904, 236);
+            this.label3.Location = new System.Drawing.Point(815, 6);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(130, 18);
             this.label3.TabIndex = 29;
@@ -134,6 +138,9 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
             this.dataGridView1.Location = new System.Drawing.Point(6, 238);
@@ -142,15 +149,17 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(897, 461);
+            this.dataGridView1.Size = new System.Drawing.Size(807, 461);
             this.dataGridView1.TabIndex = 28;
             this.dataGridView1.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_CellMouseClick);
+            this.dataGridView1.CellMouseMove += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_CellMouseMove);
             this.dataGridView1.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_ColumnHeaderMouseClick);
+            this.dataGridView1.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_RowHeaderMouseClick);
             // 
             // startSearch
             // 
             this.startSearch.Font = new System.Drawing.Font("Verdana", 12F);
-            this.startSearch.Location = new System.Drawing.Point(907, 256);
+            this.startSearch.Location = new System.Drawing.Point(818, 26);
             this.startSearch.Margin = new System.Windows.Forms.Padding(2);
             this.startSearch.Name = "startSearch";
             this.startSearch.Size = new System.Drawing.Size(222, 48);
@@ -186,7 +195,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Verdana", 12F);
-            this.label5.Location = new System.Drawing.Point(930, 511);
+            this.label5.Location = new System.Drawing.Point(589, 41);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(157, 18);
             this.label5.TabIndex = 40;
@@ -197,7 +206,7 @@
             this.sortListBox.Font = new System.Drawing.Font("Verdana", 12F);
             this.sortListBox.FormattingEnabled = true;
             this.sortListBox.ItemHeight = 18;
-            this.sortListBox.Location = new System.Drawing.Point(908, 532);
+            this.sortListBox.Location = new System.Drawing.Point(592, 67);
             this.sortListBox.Name = "sortListBox";
             this.sortListBox.Size = new System.Drawing.Size(220, 166);
             this.sortListBox.TabIndex = 39;
@@ -318,11 +327,43 @@
             this.incorrectFilter.Size = new System.Drawing.Size(0, 25);
             this.incorrectFilter.TabIndex = 57;
             // 
+            // gridChanger
+            // 
+            this.gridChanger.Font = new System.Drawing.Font("Verdana", 12F);
+            this.gridChanger.Location = new System.Drawing.Point(818, 185);
+            this.gridChanger.Name = "gridChanger";
+            this.gridChanger.Size = new System.Drawing.Size(205, 46);
+            this.gridChanger.TabIndex = 58;
+            this.gridChanger.Text = "To watched list";
+            this.gridChanger.UseVisualStyleBackColor = true;
+            this.gridChanger.Click += new System.EventHandler(this.gridChanger_Click);
+            // 
+            // gridModText
+            // 
+            this.gridModText.AutoSize = true;
+            this.gridModText.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridModText.Location = new System.Drawing.Point(819, 124);
+            this.gridModText.Name = "gridModText";
+            this.gridModText.Size = new System.Drawing.Size(0, 25);
+            this.gridModText.TabIndex = 59;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(818, 238);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(318, 461);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 60;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1140, 710);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.gridModText);
+            this.Controls.Add(this.gridChanger);
             this.Controls.Add(this.incorrectFilter);
             this.Controls.Add(this.labble);
             this.Controls.Add(this.yearFilter);
@@ -350,6 +391,7 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -379,6 +421,9 @@
         private System.Windows.Forms.Label labble;
         private System.Windows.Forms.TextBox yearFilter;
         private System.Windows.Forms.Label incorrectFilter;
+        private System.Windows.Forms.Button gridChanger;
+        private System.Windows.Forms.Label gridModText;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
